@@ -1,0 +1,96 @@
+*
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*
+!important should NOT BE USED unless its very important, overrides all other elements!
+rem is root element, 2 rem would be 2x normal font size
+
+*/
+.gray
+{
+    color:gray;
+
+}
+
+#atlantis
+{
+    color:orangered;
+}
+
+.highlight
+{
+    color:greenyellow;
+}
+
+html
+{
+    background-color: papayawhip;
+}
+
+h2
+{
+
+    /*
+    margin is for pushing element away from others
+    padding is how far element is away from border review 'Box Model'
+    */
+    border: 2px dashed plum;
+    outline: 5px solid gray;
+    outline-offset: 10px;
+    padding: 5px;
+    margin:25px;
+    width:40%
+}
+
+#fav_child
+{
+    border: 5px dashed blueviolet;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom-style: solid;
+}
+
+/*
+Hypothetical Cirlce incoming
+*/
+.circle
+{
+    background-color: aquamarine;
+    width:  12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 5px lavender solid;
+
+}
+
+#temp_form
+{
+
+    font: helvetica;
+    font-size: 50px;
+}
+
+a
+{
+    cursor:none;
+    color:aqua;
+}
+
+a:visited
+{
+    color:purple;
+}
+
+a:hover
+{
+    color:yellowgreen;
+}
+
+/*
+NEED TO LEARN MEDIA QUERIES TO BE ABLE TO RESIZE ON ANDROID/MOBILE/IPAD/ETC!
+*/
